@@ -8,6 +8,9 @@ Translate text using Google Translate.
 
 [translate-shell](http://www.soimort.org/translate-shell/)
 
+[vimproc](https://github.com/Shougo/vimproc.vim)
+
+
 ## Usage
 
 ```
@@ -33,6 +36,14 @@ Translate the current line from Japanese to English
 ```
 
 Translate the selected block from Japanese to English
+
+##Install
+
+```
+NeoBundle 'git@github.com:replicity/translategoole-vim.git', {
+			\ 'depends' : "Shougo/vimproc"
+			\}
+```
 
 ## Author
 
